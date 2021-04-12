@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(a1.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+    
+    
+}
+
+.cart{
+    width: 40px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: none;
+    margin: 0px 20px;
+    margin-block-end: 10px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(5, 70, 248);
+
+}
+nav ul li a button{
+    display: inline-block;
+    background: linear-gradient(45deg, #ddcb78, #d609dd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px rgba(94, 28, 68, 15);
+
+}
+
+/*---------/
+nav ul li a button{
+    background-size: 10px;
+    background-color: rgb(238, 20, 238);
+    width: 100%;
+    height: 110;
+    font-size: 150%;
+    margin-block-end: 10%;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 3px 8px rgba(94, 28, 68, 15);
+    display: inline-block;
+    border-radius: 6px;
+    padding: 10px 20px;
+    
+
+
+
+}
+/_______________*/
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: cyan;
+}
+.content p{
+    font-size: 20px;
+    color: pink;
+}
+.content{
+    margin-left: 7%;
+    margin-top: -40%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #f8450e, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px rgba(94, 28, 68, 15);
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 20px;
+}
+.feture-img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+/*_________social icons________________*/
+.social-icons
+{
+    top: 50%;
+    transform: translateY(-0%);
+    position: sticky;
+    z-index: 60px;
+    width: 100px;
+    
+}
+.social-icons ul
+{
+    padding: initial;
+    margin-top: 700px;
+    margin-left: -280px;
+    
+}
+.social-icons ul li
+{
+   height: 50px;
+   width: 40px;
+   list-style-type: none;
+   padding-left: 100px;
+   padding-top: 6px;
+   margin-top: 15px;
+   color: rgb(230, 17, 148);
+   background-color: rgba(86, 2, 241, 0.267);
+   font-size: 40px;
+   
+   
+   
+}
+.fa .fa-linkedin
+{
+   height: 50; 
+   width: 20px;
+}
+
+
+/*-------------end social icons------------------*/
+.feture2-img{
+    background-color: tan;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50%;
+    
+    margin: right;
+}
+.feture3-img{
+    background-color: rgb(235, 132, 235);
+    width: 50%;
+    margin-right: -295px;
+}
+/*----------------------------/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    margin-top: 1px;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+

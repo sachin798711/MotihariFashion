@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+ 
+    <title>motihari fashion</title>
+</head>
+<body>
+   
+      
+
+    <div class="container">
+         <div class="navbar">
+        <img src="logo.png" class="logo">
+         <!----------------------social-icoan--------------------->
+    
+       <div class="social-icons">
+        <ul>
+           <a href=""><a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+           <a href=""><a href="#"><li><i class="fa fa-twitter"></i></li></a>
+           <a href=""><a href="#"><li><i class="fa fa-medium"></i></li></a>  
+           <a href=""><a href="#"><li><i class="fa fa-github"></i></li></a>
+           <a href=""><a href="#"><li><i class="fa fa-whatsapp"></i></li></a>
+           <a href=""><a href="#"><li><i class="fa fa-facebook"></i></li></a>
+           <a href=""><a href="#"><li><i class="fa fa-instagram"></i></li></a>
+       </ul>
+   </div>
+
+
+   
+   <!-------------end --------------->
+   
+
+   
+        <nav>
+            <ul>
+                <li><a href="#"><button> HOME</button></a></li>
+                <li><a href="#"><button>About</button></a></li>
+                <li><a href="#"><button>Collections</button></a></li>
+                <li><a href="#"><button>Category</button></a></li> 
+            </ul>
+        </nav>
+        
+        <img src="cart.png" class="cart">
+        </div>
+        <!------------------>
+      
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="12.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="b1.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="12.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+
+
+        <!------------>
+        <div class="content">
+            <a  href="#" class="btn">2021 Collections</a>
+            <h1>you should always<br> feel pretty</h1>
+            <p>sachin kumar</p>
+            
+        
+            <div class="arrow-icons">
+                <img src="back-arrow.png">
+                <img src="next-arrow.png">
+                </div>
+            </div>
+
+            <img src="21a.png" class="feture-img">
+    </div>
+
+    
+
+
+<div>
+    <img src="img.png" class="feture2-img">
+    <img src="img.png" class="feture3-img">
+    </div>
+   
+<!------------------------------->
+
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+
+
+    
+</body>
+</html>
